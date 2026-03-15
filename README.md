@@ -86,7 +86,10 @@ POST /api/execute with json format
 
 Examples: 
 ```
-{"command": "echo 'Hello World'","cpuCount": 1}
+{
+    "command": "echo 'Hello World'",
+    "cpuCount": 1
+}
 
 {
     "command": "sha1sum /dev/zero & sha1sum /dev/zero & sha1sum /dev/zero",
@@ -122,6 +125,5 @@ A service:
 * execute the command on the executor
 * updates the execution status
 
-You are free to use any stack you want, but the code should be written either in Java or Kotlin. You can also choose any cloud platform you want (e.g. EC2, hosted Kubernetes pod, your friend’s laptop, etc.) as a remote executor.
 
 
