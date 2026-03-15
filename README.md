@@ -71,14 +71,17 @@ Dependencies: Spring Web, Spring Data MongoDB, Lombok
 
 Clean and run the application using Maven: 
 
-```./mvnw clean install
+```
+./mvnw clean install
 
 ./mvnw spring-boot:run
 ```
 
 Submit a command in Postman: 
 
+```
 POST /api/execute with json format 
+```
 
 Examples: 
 
