@@ -10,9 +10,9 @@ Each command is executed inside an isolated Docker container with configurable C
 
 Client using Postman can: 
 
-send a command with CPU count 
+*    send a command with CPU count 
 
-check execution status (QUEUED, IN_PROGRESS, FINISHED, FAILED)
+*    check execution status (QUEUED, IN_PROGRESS, FINISHED, FAILED)
 
 ## Service
 
