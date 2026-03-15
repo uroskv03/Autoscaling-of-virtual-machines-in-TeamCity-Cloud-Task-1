@@ -73,7 +73,8 @@ Clean and run the application using Maven:
 
 ```
 ./mvnw clean install
-
+```
+```
 ./mvnw spring-boot:run
 ```
 
@@ -84,7 +85,7 @@ POST /api/execute with json format
 ```
 
 Examples: 
-
+```
 {"command": "echo 'Hello World'","cpuCount": 1}
 
 {
@@ -96,13 +97,13 @@ Examples:
     "command": "sleep 60 && echo '60 secs'",
     "cpuCount": 1
 }
-
+```
 
 
 Check status in Postman: 
-
+```
 GET /api/status/{id} 
-
+```
 
 ## Original Task Description
 
