@@ -31,23 +31,23 @@ A StartupRecovery mechanism scans database on application startup and marks any 
 
 ## Tech Stack
 
-Java 17+
+*    Java 17+
 
-Spring Boot 3.x (Web, Data MongoDB)
+*    Spring Boot 3.x (Web, Data MongoDB)
 
-MongoDB
+*    MongoDB
 
-Docker (Remote Executor)
+*    Docker (Remote Executor)
 
-Docker-Java Library
+*    Docker-Java Library
 
 ## Requirements
 
-Docker Desktop
+*    Docker Desktop
 
-MongoDB 
+*    MongoDB 
 
-VS Code Extensions: Extension Pack for Java, Spring Boot Extension Pack, Docker.
+*    VS Code Extensions: Extension Pack for Java, Spring Boot Extension Pack, Docker.
 
 ## Project Setup
 
