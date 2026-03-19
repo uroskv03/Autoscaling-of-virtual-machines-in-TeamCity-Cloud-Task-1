@@ -33,7 +33,7 @@ A StartupRecovery mechanism scans database on application startup and marks any 
 
 *    Java 17+
 
-*    Spring Boot 3.x (Web, Data MongoDB)
+*    Spring Boot
 
 *    MongoDB
 
