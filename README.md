@@ -31,7 +31,7 @@ A StartupRecovery mechanism scans database on application startup and marks any 
 
 ## Tech Stack
 
-*    Java 17+
+*    Java 17
 
 *    Spring Boot
 
