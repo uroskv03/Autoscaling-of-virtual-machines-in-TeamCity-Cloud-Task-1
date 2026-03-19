@@ -23,9 +23,9 @@ The container is configured with Docker HostConfig to enforce CPU limits.
 The service:
 
 
--executes commands asynchronously using background threads.
+*    executes commands asynchronously using background threads.
 
--automatically updates task status in MongoDB (QUEUED -> IN_PROGRESS ->  FINISHED/FAILED).
+*    automatically updates task status in MongoDB (QUEUED -> IN_PROGRESS ->  FINISHED/FAILED).
 
 A StartupRecovery mechanism scans database on application startup and marks any interrupted tasks (e.g. potential crash) as FAILED.
 
