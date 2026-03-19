@@ -59,7 +59,7 @@ Language: Java
 
 Spring Boot: 4.0.3
 
-Packaging: Jar; 
+Packaging: Jar
 
 Configuration: Properties
 
