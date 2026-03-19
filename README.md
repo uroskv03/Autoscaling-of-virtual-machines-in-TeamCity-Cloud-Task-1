@@ -78,9 +78,7 @@ Clean and run the application using Maven:
 ./mvnw spring-boot:run
 ```
 
-Submit a command in Postman: 
-
-```
+Submit a command in Postman: ```
 POST /api/execute with json format 
 ```
 
@@ -103,8 +101,7 @@ Examples:
 ```
 
 
-Check status in Postman: 
-```
+Check status in Postman: ```
 GET /api/status/{id} 
 ```
 
