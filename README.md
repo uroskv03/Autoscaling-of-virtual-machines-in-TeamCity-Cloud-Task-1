@@ -108,6 +108,27 @@ Check status in Postman:
 GET /api/status/{id} 
 ```
 
+## Test limitations
+
+To verify that the service is correctly applying resource limits, you can use the following Docker commands while a task is **IN_PROGRESS**:
+
+1. List active containers:
+
+```
+docker ps
+```
+
+2. CPU usage in real-time:
+
+```
+docker stats
+```
+Detailed information about specific command:
+
+```
+docker inspect <CONTAINER ID>
+```
+
 ## Original Task Description
 
 Create a simple service to execute shell commands on a remote executor.
