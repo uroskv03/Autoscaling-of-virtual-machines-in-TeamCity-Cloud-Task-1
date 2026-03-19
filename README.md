@@ -2,7 +2,7 @@
 
 ## Remote Command Executor Service
 
-A simple backend service that allows users to execute shell commands on remote executors. 	
+A backend service that allows users to execute shell commands on remote executors. 	
 
 Each command is executed inside an isolated Docker container with configurable CPU limits. The system tracks the execution lifecycle and allows users to get the status of their tasks.
 
