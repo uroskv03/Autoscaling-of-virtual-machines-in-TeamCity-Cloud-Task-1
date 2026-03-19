@@ -79,8 +79,7 @@ Clean and run the application using Maven:
 ```
 
 Submit a command in Postman: 
-```
-POST /api/execute with json format 
+``` POST /api/execute with json format 
 ```
 
 Examples: 
