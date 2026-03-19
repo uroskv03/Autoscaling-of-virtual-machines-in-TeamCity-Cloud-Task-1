@@ -101,9 +101,8 @@ Examples:
 ```
 
 
-Check status in Postman: ```
-GET /api/status/{id} 
-```
+Check status in Postman:
+``` GET /api/status/{id} ```
 
 ## Verifying Resource Limits
 
